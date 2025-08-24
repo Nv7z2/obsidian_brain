@@ -260,3 +260,6 @@ Robert Kiyosaki - Bogaty ojciec, biedny ojciec
 **„This is the Way – The Mandalorian Way of Stoicism” – Ryan Holiday (lub inna książka Holidaya o stoicyzmie)**  
 **Dlaczego:** Powrót do osobistego charakteru, filozofii i samodyscypliny. Oldmoney to przede wszystkim **siła osobowości i powściągliwości**.
 
+---
+
+Pułapki myślenia 

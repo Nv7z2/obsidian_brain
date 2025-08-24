@@ -13,11 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nimesil.md",
+                "file": "Książki.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Książki"
             }
           }
         ]
@@ -35,8 +37,11 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
-          }
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Przeglądarka plików"
         }
       },
       {
@@ -51,7 +56,9 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-search",
+          "title": "Szukaj"
         }
       },
       {
@@ -61,8 +68,12 @@
           "type": "tag",
           "state": {
             "sortOrder": "frequency",
-            "useHierarchy": true
-          }
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tagi"
         }
       },
       {
@@ -70,7 +81,23 @@
         "type": "leaf",
         "state": {
           "type": "bookmarks",
-          "state": {}
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Ulubione"
+        }
+      },
+      {
+        "id": "5ceb53f50b00fd85",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "Wszystkie atrybuty"
         }
       }
     ],
@@ -86,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Nimesil.md",
+            "file": "Książki.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -94,7 +121,9 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-coming-in",
+          "title": "Linki zwrotne"
         }
       },
       {
@@ -103,10 +132,12 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Nimesil.md",
+            "file": "Książki.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-going-out",
+          "title": "Łącza wychodzące"
         }
       },
       {
@@ -115,30 +146,42 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Nimesil.md"
-          }
+            "file": "Książki.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Konspekt"
+        }
+      },
+      {
+        "id": "077a2af8266bc520",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "lucide-ghost",
+          "title": "git-view"
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
-      "publish:Publish changes...": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "float-search:Search Obsidian In Modal": false,
-      "obsidian-metatable:Metatable": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Otwórz okno szybkiego wyboru": false,
+      "graph:Otwórz graf": false,
+      "canvas:Stwórz nową tablicę": false,
+      "daily-notes:Otwórz codzienną notatkę": false,
+      "templates:Wstaw szablon": false,
+      "command-palette:Otwórz listę poleceń": false,
+      "publish:Opublikuj zmiany...": false,
+      "bases:Stwórz nową bazę danych": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "6cf872a380d2742b",
+  "active": "ba5e5e5eaa249e8e",
   "lastOpenFiles": [
     "Trądzik (dolegliwość).md"
   ]
