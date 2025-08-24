@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "type": "graph",
+      "ctime": 1687039851184,
+      "title": "by status",
+      "options": {
+        "collapse-filter": true,
+        "search": "- path:_templates",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": false,
+        "showOrphans": true,
+        "collapse-color-groups": true,
+        "colorGroups": [
+          {
+            "query": "line:(status: published)",
+            "color": {
+              "a": 1,
+              "rgb": 7067255
+            }
+          },
+          {
+            "query": "line:(status: to-fix)",
+            "color": {
+              "a": 1,
+              "rgb": 14370888
+            }
+          },
+          {
+            "query": "line:(status: next)",
+            "color": {
+              "a": 1,
+              "rgb": 4251122
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": true,
+        "textFadeMultiplier": 0.3,
+        "nodeSizeMultiplier": 1,
+        "lineSizeMultiplier": 1,
+        "collapse-forces": true,
+        "centerStrength": 0.2548828125,
+        "repelStrength": 6.85709635416667,
+        "linkStrength": 0.471516927083333,
+        "linkDistance": 203,
+        "scale": 0.5757614826487418,
+        "close": false
+      }
+    }
+  ]
+}
